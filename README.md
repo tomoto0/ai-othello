@@ -35,7 +35,7 @@ A modern, full-stack implementation of the classic Othello (Reversi) board game 
 │         React Application           │
 ├─────────────────────────────────────┤
 │  Components (View Layer)            │
-│  ├─ GameBoard (3D Board Rendering)　　 │
+│  ├─ GameBoard (3D Board Rendering)　│
 │  ├─ ScorePanel                      │
 │  ├─ ControlPanel                    │
 │  ├─ MobileControls                  │
@@ -45,10 +45,10 @@ A modern, full-stack implementation of the classic Othello (Reversi) board game 
 │  └─ useReducer + Context API        │
 ├─────────────────────────────────────┤
 │  Utils (Business Logic)             │
-│  ├─ gameLogic.ts (Core rules)     　　 │
-│  ├─ aiService.ts (API client)   　　   │
-│  ├─ storage.ts (Persistence)     　　  │
-│  └─ sounds.ts (Audio engine)     　　  │
+│  ├─ gameLogic.ts (Core rules)       │
+│  ├─ aiService.ts (API client)       │
+│  ├─ storage.ts (Persistence)     　  │
+│  └─ sounds.ts (Audio engine)   　　  │
 └─────────────────────────────────────┘
 ```
 
@@ -58,12 +58,12 @@ A modern, full-stack implementation of the classic Othello (Reversi) board game 
 │      Express Server (Node.js)       │
 ├─────────────────────────────────────┤
 │  Routes                             │
-│  └─ /api/ai-move (POST)           　　 │
+│  └─ /api/ai-move (POST)             │
 ├─────────────────────────────────────┤
 │  OpenAI Integration                 │
-│  ├─ GPT-4o API Client            　　  │
-│  ├─ Strategic Prompts             　　 │
-│  └─ Fallback Heuristics         　　   │
+│  ├─ GPT-4o API Client            　  │
+│  ├─ Strategic Prompts           　　 │
+│  └─ Fallback Heuristics       　　   │
 └─────────────────────────────────────┘
 ```
 
